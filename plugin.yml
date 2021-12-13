@@ -1,0 +1,23 @@
+name: GoodSport
+main: goodsport.GoodSportStartup
+api-version: 1.18
+version: 1.2
+softdepend: []
+author: Rusettsten
+description: Creates a leaderboard based off f and gg replies
+commands:
+  leaderboard:
+    description: Leaderboard
+    usage: /leaderboard
+    permission: goodsport.leaderboard
+    permission-message: You do not have permission to run this command!
+  checkscore:
+    description: Check a GoodSport score!
+    usage: /checkscore ?<playerName>
+    permission: goodsport.checkscore
+    permission-message: You do not have permission to run this command!
+  setscore:
+    description: Change a GoodSport score. For Admins.
+    usage: /setscore <playerName> <newScore>
+    permission: goodsport.setscore
+    permission-message: You do not have permission to run this command! For good reason!
